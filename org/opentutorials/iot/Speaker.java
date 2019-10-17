@@ -8,7 +8,7 @@ public class Speaker {
 		this._id = id;
 	}
 	public Boolean makeVoice(String content) {
-		System.out.println(this._id + " → Speaker on : " + content);
+		System.out.println(this._id + " -> Speaker on : " + content);
 		return true;
 	}
 }

@@ -9,7 +9,7 @@ public class Aircon implements OnOff{
 	}
 
 	public boolean on() {
-		System.out.println(this._id + " → Aircon on : " + this._desiredTemperature);
+		System.out.println(this._id + " -> Aircon on : " + this._desiredTemperature);
 		return true;
 	}
 

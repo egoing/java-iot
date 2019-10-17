@@ -14,7 +14,7 @@ public class ColorDimmingLights extends DimmingLights {
 	
 	public void setColor(Color color) {
 		this._color = color;
-		System.out.println(this._id + " → ColorDimmingLights color : "+color);
+		System.out.println(this._id + " -> ColorDimmingLights color : "+color);
 	}
 
 }

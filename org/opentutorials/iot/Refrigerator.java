@@ -13,11 +13,11 @@ public class Refrigerator implements OnOff {
 		return number;
 	}
 	public boolean on() {
-		System.out.println(this._id + " → Refrigerator on");
+		System.out.println(this._id + " -> Refrigerator on");
 		return true;
 	}
 	public boolean off() {
-		System.out.println(this._id + " → Refrigerator off");
+		System.out.println(this._id + " -> Refrigerator off");
 		return true;
 	}
 }

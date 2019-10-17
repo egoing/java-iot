@@ -8,11 +8,11 @@ public class Security implements OnOff{
 		this._id = id;
 	}
 	public boolean on() {
-		System.out.println(this._id+" → Security on");
+		System.out.println(this._id+" -> Security on");
 		return true;
 	}
 	public boolean off() {
-		System.out.println(this._id+" → Security off");
+		System.out.println(this._id+" -> Security off");
 		return true;
 	}
 	public int getExistPeopleNumber() {
